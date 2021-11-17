@@ -13,7 +13,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        window.requestFeature(Window.FEATURE_NO_TITLE)
+        supportActionBar?.hide()
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
