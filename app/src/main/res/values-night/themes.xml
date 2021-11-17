@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.MaxAPP" parent="Theme.MaterialComponents.NoActionBar">
-
+        <item name="colorPrimary">@color/tollbarColor</item>
     </style>
 </resources>
